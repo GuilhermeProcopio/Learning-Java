@@ -1,0 +1,48 @@
+// Loop
+/*
+	- For
+	- while
+	- Do while
+
+*/
+
+/* 
+// Estrurua do for
+
+for(inicialização/condição;incremento){
+	código;
+}
+
+
+*/
+
+for(int i = 0 <10;i++){
+	System.out.println("olá!")
+}
+/* 
+// Estrurua do while
+inicialização;
+while(condição){
+	código;
+
+	incremento;
+}
+}
+
+*/
+int idade = 15;
+
+while(idade<18){
+	System.out.println(idade);
+	idade++
+}
+
+// do while
+
+// A diferença do while para do-while é que o do-while só executa se a expressão é verdadeira
+int idade = 18;
+do {
+	System.out.println()
+	idade++
+}
+while(idade<18)
