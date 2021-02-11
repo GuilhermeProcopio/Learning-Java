@@ -1,0 +1,170 @@
+/*
+	- if-else
+	- Switch-case
+	- Operadores Lógicos e Relacionais
+
+*/
+	if(condiçãoBooleana) {
+		código;
+	}
+
+	int idade=15
+	if(idade == 18){
+		//Esta ordem não é executada, pois o valor de atributo idade não é igual a 18.
+		System.out.println("Não pode entrar");
+
+	}
+
+int idade = 15;
+
+if(idade<18){
+	//Esta ordem é executada, pois o valordo atributo é menor que 18.
+
+	System.out.println("Não pode entrar");
+
+if(idade>=18){
+
+	System.out.println("Você pode entrar")
+}
+
+if(idade!=18){
+	System.out.println("To confuso");
+}
+//----------------------------------//
+//Sistem de "or" é representado por ||
+int sua_idade = 15;
+int idade_amigo = 19;
+if(sua_idade > 18 || idade_amigo > 18){
+
+	//Esta ordem é executada, pois um dos atributos é maior que 18.
+	System.out.println("Podem entrar")
+}
+
+//------------------------------//
+//Sistema "and" é representado por &&
+
+int sua_idade = 15;
+int idade_amigo = 19;
+if(sua_idade > 18 && idade_amigo>18){
+
+	//Esta ordem não é executada, pois os dois atributos devem ser maior que 18.
+	System.out.println("Podem entrar")
+}
+
+//-------------------------------//
+//Mais um detalhe está relacionado ao tipo String, que se utiliza do operador equals e da negação “!" para fazer comparações conforme o exemplo abaixo:
+
+int sua_idade = 15;
+String nome_amigo = "Luis";
+if(sua_idade>18||nome_amigo.equals("Luis")){
+
+	System.out.println("Por que tanta variação dos mesmo exemplos?")
+}
+
+int sua_idade = 15;
+String nome_amigo = "Luisa";
+if(sua_idade>18||!!nome_amigo.equals("Luis")){
+
+	System.outprintln("Podem entrar?")
+}
+
+//--------------------------------//
+// usando else para executar outro código caso a condição seja falsa no if
+
+if(condiçãoBooleana){
+	código;
+}
+else{
+	código
+}
+
+if(idade>=18){
+
+	System.out.println("Você pode entrar")
+}
+else{
+
+	System.out.println("Não pode entrar")
+}
+
+
+//-------------------//
+//Detalhe sobre o else if; é elif 
+
+if(condiçãoBooleana){
+
+	código;
+}
+
+else if(condiçãoBooleana){
+
+	código;
+}
+
+else(condiçãoBooleana){
+
+	código;
+}
+
+/*
+	Desejamos definir y tal que
+	|x=2, se x <-1,
+	y =|1, se -1<=x<1,
+	|x*x, se 1<= x.
+ */
+
+if(x<-1){
+
+	y=x+2;
+
+}
+
+else if(x <= 0){
+	y = 1;
+}
+else {
+	y = x*x;
+}
+
+//----------------------//
+
+//switch-case
+
+switch(condição){
+
+	case opção1:
+		código;
+
+	case opção2:
+		código;
+
+	case opção3:
+		código;
+
+	default:
+		código;
+
+}
+
+int op;
+op = 2;
+
+switch(op){
+
+	case 1:
+		System.out.println("case 1:op=" + op);
+		break;
+
+	case 2:
+		System.out.println("case 2:op=" + op)
+		break;
+
+	case 3:
+		System.out.println("case 3:op="+op)
+		break;
+
+	default:
+		System.out.println("default: op não está no limite 1..3");
+		break;
+}
+
