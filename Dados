@@ -1,4 +1,7 @@
-class intedouble{
+// Dadoso com java
+
+
+class datas{
     public static void main(String[] args) {
         int idade = 5 + 1;
         System.out.println("Idade + 1 =>"+ idade);
@@ -17,7 +20,7 @@ class intedouble{
     }
 }
 
-class operadores{
+class datas2{
 
     public static void main(String[] args) {
         
@@ -33,7 +36,7 @@ class operadores{
     }
 }
 
-class Exercicio_B_3{
+class datas3{
     public static void main(String[] args) {
         int idade = 5;
         System.out.println("Idade:" + idade);
@@ -78,34 +81,4 @@ System.out.println(“Valor1 %= > ” + valor1);
 
 
     }
-}
-
-class strings1{
-
- 
-
-            public static void main(String[] args) {
-
- 
-
-                        char vita = ‘B’;
-
-char mina = ‘1’;
-
-char b12 = ‘2’;
-
- 
-
-                        System.out.println(vita + mina + b12);
-
-                       
-
-                        String estado = “São Paulo”;
-
-String pais = “Brasil”;
-
-                        System.out.println(estado + “ - ” + pais);
-
-            }
-
 }
