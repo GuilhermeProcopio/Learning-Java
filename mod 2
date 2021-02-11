@@ -1,0 +1,81 @@
+class Exercicio_B_1{
+    public static void main(String[] args) {
+        int idade = 5 + 1;
+        System.out.println("Idade + 1 =>"+ idade);
+
+        int idade1 = 5- 1;
+        System.out.println("idade -1 =>" + idade1);
+
+        int idade2 = 5 * 1;
+        System.out.println("idade * 1 =>" + idade2);
+
+        double valor = 5.0/2;
+        System.out.println("Valor / 2 =>" + valor);
+
+        double valor1 = 5.0 % 2;
+        System.out.println("Valor%2 =>"+ valor1);
+    }
+}
+
+class Exercicio_B_2{
+
+    public static void main(String[] args) {
+        
+        int idade=5;
+        int nova_idade=idade++;
+        System.out.println("Idade: "+idade);
+        System.out.println("nova idade:" + nova_idade);
+
+        int idade1 = 5;
+        int nova_idade1=++idade1;
+        System.out.println("idade; "+ idade1);
+        System.out.println("Mesma idade: "+nova_idade1);
+    }
+}
+
+class Exercicio_B_3{
+    public static void main(String[] args) {
+        int idade = 5;
+        System.out.println("Idade:" + idade);
+
+            int idade1=1;
+            int idade1+=5;  
+
+        System.out.println("idade+=" + idade1);
+        System.out.println(“Idade += > ” + idade1);
+
+ 
+
+        int idade2 = 1;
+
+        int idade2 -= 5;
+
+        System.out.println(“Idade -= > ” + idade2);
+
+ 
+
+        int idade3 = 1;
+
+int idade3 *= 5;
+
+System.out.println(“Idade *= > ” + idade3);
+
+ 
+
+double valor = 2;
+
+valor /= 5.0;
+
+System.out.println(“Valor /= > ” + valor);
+
+ 
+
+double valor1 = 2;
+
+valor1 %= 5.0;
+
+System.out.println(“Valor1 %= > ” + valor1);
+
+
+    }
+}
