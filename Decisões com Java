@@ -4,13 +4,18 @@
 	- Operadores Lógicos e Relacionais
 
 */
+	/*
+	// Regra de sintaaxe do if:
+	
 	if(condiçãoBooleana) {
 		código;
 	}
 
+	*/
+
 	int idade=15
 	if(idade == 18){
-		//Esta ordem não é executada, pois o valor de atributo idade não é igual a 18.
+
 		System.out.println("Não pode entrar");
 
 	}
@@ -18,7 +23,7 @@
 int idade = 15;
 
 if(idade<18){
-	//Esta ordem é executada, pois o valordo atributo é menor que 18.
+	
 
 	System.out.println("Não pode entrar");
 
@@ -32,6 +37,7 @@ if(idade!=18){
 }
 //----------------------------------//
 //Sistem de "or" é representado por ||
+
 int sua_idade = 15;
 int idade_amigo = 19;
 if(sua_idade > 18 || idade_amigo > 18){
