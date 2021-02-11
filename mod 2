@@ -1,4 +1,4 @@
-class Exercicio_B_1{
+class intedouble{
     public static void main(String[] args) {
         int idade = 5 + 1;
         System.out.println("Idade + 1 =>"+ idade);
@@ -17,7 +17,7 @@ class Exercicio_B_1{
     }
 }
 
-class Exercicio_B_2{
+class operadores{
 
     public static void main(String[] args) {
         
@@ -78,4 +78,34 @@ System.out.println(“Valor1 %= > ” + valor1);
 
 
     }
+}
+
+class strings1{
+
+ 
+
+            public static void main(String[] args) {
+
+ 
+
+                        char vita = ‘B’;
+
+char mina = ‘1’;
+
+char b12 = ‘2’;
+
+ 
+
+                        System.out.println(vita + mina + b12);
+
+                       
+
+                        String estado = “São Paulo”;
+
+String pais = “Brasil”;
+
+                        System.out.println(estado + “ - ” + pais);
+
+            }
+
 }
