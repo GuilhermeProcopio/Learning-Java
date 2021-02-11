@@ -1,8 +1,8 @@
-public class Módulo1 /* - abre o arquivo de classe */
+public class Módulo1 /* - abre o arquivo de classe denominado "Módulo1*/
 {
 public static void main(String[] args) { /* abre o inicio do metodo "main"*/
 {
-    System.out.print("Teste"); /* Corpo do método */
+    System.out.print("Teste"); /* Corpo do método "main"*/ // aqui são colocados alguns dos códigos
 
 }
     
