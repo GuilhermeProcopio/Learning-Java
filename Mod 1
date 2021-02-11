@@ -1,0 +1,10 @@
+public class Módulo1 /* - abre o arquivo de classe */
+{
+public static void main(String[] args) { /* abre o inicio do metodo "main"*/
+{
+    System.out.print("Teste"); /* Corpo do método "main"*/
+
+}
+    
+}
+}
