@@ -1,0 +1,55 @@
+// first Welcome in java
+
+// simple
+
+public class Welcome1
+{
+    public static void main(String[] args)
+    {
+        System.out.println("Welcome to Java Programming!");
+    }
+}
+
+
+// in line and only print
+
+public class Welcome2 {
+    public static void main(String[] args) {
+        System.out.print("Welcome to ");
+        System.out.println("Java Programming");
+    }
+}
+/*
+
+\n -> Nova linha
+\t -> tabulação horizontal
+\r -> Retorno (Posiciona o cursor da tela no início da linha atual)
+\\ -> utilizadas para imprimir um caractere de barra invertida
+\" -> Imprimir aspas duplas
+
+*/
+
+//with spaces in \n 
+
+public class Welcome3 {
+    public static void main(String[] args) {
+
+        System.out.println("Welcome\nto\nJava\nProgramming!");
+    
+    }
+    
+
+}
+// with printf
+public class Welcome4 {
+    public static void main(String[] args) {
+        System.out.printf("%s%n%s%n",
+        "Welcome to", "Java Programming!");
+    }
+}
+
+// printf -> f significa o formato
+
+// % -> Tipo de dados, assim como strig é s %s é o formato string
+// %n faz ir para outra linha, assim sendo: string outra linha string
+// você só pode usara %n em printf 
